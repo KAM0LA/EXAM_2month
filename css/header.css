@@ -1,0 +1,134 @@
+header{
+    background: #FAFAFA;
+}
+.nav_img_links{
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+}
+
+.nav_list_item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.nav_list_item:hover {
+    color: #000000;
+}
+
+.hamburger, .close {
+    display: none;
+  }
+
+
+  /* HOME_SECTION */
+
+  .home_sect{
+    padding: 104px 0px 40px;
+  }
+
+  .your_business{
+    width: 509px;
+  }
+  .your_business > h1 {
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.your_business > p {
+    margin: 35px 0px;
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.btn_get_quote{
+    padding: 15px 36px;
+    background: transparent;
+    border: 2px solid #00A0C1;
+    border-radius: 37px;
+}
+.btn_get_quote > a {
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #00A0C1
+}
+.btn_get_quote:hover{
+    background: #FFA62B;
+    border: 2px solid #FFA62B;
+}
+.btn_get_quote:hover > a {
+    color: #FFFFFF;
+}
+
+/* th_boxe3 */
+
+.th_boxe3{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxe3{
+    max-width: 328px;
+    padding: 39px 66px 35px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.boxe3 > h3 {
+    margin: 13px 0px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.boxe3 > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.second_boxe3{
+    padding: 35px 28px 35px 30px;
+}
+
+.boxe3:hover {
+    background: #00A0C1;    
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.boxe3:hover h3,
+.boxe3:hover p{
+    color: #FFFFFF;
+}
+.boxe3:hover path {
+    fill: #FFFFFF;
+}

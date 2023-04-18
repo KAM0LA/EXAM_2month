@@ -1,0 +1,23 @@
+@import url("./common.css");
+@import url("./header.css");
+@import url("./about.css");
+@import url("./advice.css");
+@import url("./service.css");
+@import url("./support.css");
+@import url("./contact.css");
+@import url("./footer.css");
+@import url("./responsive.css");
+
+
+@font-face {
+    font-family: 'Montserrat' , sans-serif;
+    src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
+}

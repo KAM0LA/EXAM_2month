@@ -1,0 +1,65 @@
+.our_supports {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+    margin-bottom: 35px;
+}
+
+.subcribe_and_form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background: #16697A;
+    border-radius: 2px;
+}
+.subcribe_text{
+    width: 270px;
+}
+.subcribe_text > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.form_submit{
+    width: 450px;
+    height: 58px;
+    position: relative;
+}
+
+.input_email{
+    width: 65%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 15px 10px 15px 20px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.btn_submit {
+    width: 35%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 289px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFA62B;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}

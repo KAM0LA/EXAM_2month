@@ -1,0 +1,107 @@
+.service_part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.entrance_to_business{
+    width: 511px;
+    text-align: center;
+}
+.entrance_to_business > h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.entrance_to_business > p{
+    margin: 15px 0px 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.video_and_our_field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video_about_our_service {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 445px;
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/service_part/m.video.png");
+    background-repeat: no-repeat;
+    object-position: center;
+    background-size: cover;
+}
+.video_about_our_service > img {
+    position: absolute;
+    width: 97.6px;
+    height: 98.4px;
+    left: calc(50% - 97.6px/2 + 0.3px);
+    top: calc(50% - 98.4px/2 + 0.2px);
+}
+
+.text_who_trusted_our_field {
+    width: 350px;
+    height: 445px;
+    padding: 5px;
+}
+.text_who_trusted_our_field > h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.text_who_trusted_our_field > p {
+    margin: 10px 0px 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.quick_fox_part {
+    display: flex;
+    align-content: start;
+}
+.quick_fox_part > img {
+    max-width: 32px;
+    align-self: start;
+}
+.quick_fox_text {
+    margin: 0px 0px 15px 20px;
+}
+.quick_fox_text > h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.quick_fox_text > p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}

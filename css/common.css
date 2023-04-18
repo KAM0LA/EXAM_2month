@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    font-family: 'Montserrat';
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+
+}
+
+#home{
+    width: 100%;
+    background-image: url("../img/home_part/home_girl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    padding: 300px 0px 80px;
+    background: #FAFAFA;
+}
+
+#advice {
+    padding: 100px 0px 100px;
+    background: #FAFAFA;
+}
+#service {
+    padding: 100px 0px 150px;
+    background: #FAFAFA;
+}
+#support {
+    padding: 50px 0px 85px;
+    background: #FAFAFA;
+}
+.contact_first_part{
+    padding: 80px 0px 200px;
+    background: #F3F3F3;
+ }
+ .contact_2nd_part{
+    padding: 100px 0px 250px;
+    background: #FAFAFA;
+ }
+ input:focus,
+ select:focus,
+ textarea:focus {
+   outline: none;
+ }
+
+                  /* Start of Footer */
+
+ .footer_f1rst_part {
+    padding: 50px 0px 85px;
+    background: #16697A;
+ }
+.footer_2nd_part {
+    padding: 25px 0px 20px;
+    background: #FAFAFA;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#backtop {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: -50px;
+    right: 50px;
+    padding: 15px;
+    background-image: url(../img/up-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: transparent;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
