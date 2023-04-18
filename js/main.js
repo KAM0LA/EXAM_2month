@@ -1,4 +1,3 @@
-
 window.addEventListener("scroll", function () {
   toggleBacktop();
 });
@@ -12,8 +11,6 @@ function toggleBacktop() {
     backtop.style.bottom = "-50px";
   }
 }
-
-
 
 function openNavbar() {
     document.getElementById("nav-list").style.left = "0";
